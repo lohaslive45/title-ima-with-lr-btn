@@ -1,0 +1,34 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10000;
+  padding: 30px 100px;
+
+  .logo {
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+  }
+
+  ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      position: relative;
+      list-style: none;
+      margin-left: 40px;
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
